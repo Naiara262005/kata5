@@ -39,9 +39,7 @@ public class Histogram implements Iterable<Integer> {
     public String x(){
         return labels.getOrDefault("x", "");
     }
-    public String y(){
-        return labels.getOrDefault("y", "");
-    }
+
     public String legend(){
         return labels.getOrDefault("legend", "");
     }

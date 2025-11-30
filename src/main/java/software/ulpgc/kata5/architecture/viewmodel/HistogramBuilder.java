@@ -33,10 +33,7 @@ public class HistogramBuilder {
         labels.put("x", label);
         return this;
     }
-    public HistogramBuilder y(String label){
-        labels.put("y", label);
-        return this;
-    }
+
     public HistogramBuilder legend(String label){
         labels.put("legend", label);
         return this;
